@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald&family=Space+Grotesk&display=swap');
+
+@import url("components/container.css") ;
+
+@import url("components/avatar.css");
+
+@import url("components/button.css") ;
+
+@import url("components/banner.css") ;
+
+@import url(components/card.css) ;
+
+
+
+Body {
+
+  // <uniquifier>: Use a unique and descriptive class name
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+
+h1,h2,h3 {
+
+  // <uniquifier>: Use a unique and descriptive class name
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+  @media (max-width:2000px) {
+
+    .container {
+      width: 800px;
+      
+
+    }
+   }
+
+  @media (max-width:800px ) {
+    .container {
+      width: 600px;
+    }
+  }
+
+  @media (max-width:550px ) {
+    .container {
+      width:500px;
+    }
+  }
+
+   @media (max-width:300px ) {
+    .container {
+      width:300px;
+    }
+  }
+
+  
+
+a {
+
+  text-decoration: none;
+}
